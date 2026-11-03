@@ -46,6 +46,9 @@ section.wrap{padding-top:44px;padding-bottom:44px}
 footer.site{background:var(--dark);color:var(--paper);padding:26px 0}
 footer.site p{margin:4px 0}
 footer.site a{color:#f0d9a0}
+.warn{border:2px solid var(--red);background:#f8e7d8;padding:6px 16px;margin:18px 0}
+.warn h3{font-size:clamp(20px,5vw,24px);margin-top:10px}
+.subh{font-size:clamp(20px,5vw,24px);margin:22px 0 6px}
 @media(min-width:760px){
  .featured{grid-template-columns:340px 1fr;align-items:start}
  .cards{grid-template-columns:repeat(3,1fr)}
